@@ -1,0 +1,21 @@
+# Ignore massive genomic data directories
+Raw_data/
+alignment/
+trimmed_data/
+qc_result/
+Reference/
+
+# Ignore specific file types just in case
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.sam
+*.bam
+*.bai
+*.bcf
+*.vcf
+*.blast
+*.html
+*.zip
+*.sh
